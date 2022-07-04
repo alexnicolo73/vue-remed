@@ -3,22 +3,9 @@
    <div class="card">
   <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:100%">
   <div class="container">
-    <h4><b>John Doe</b></h4>
-    <p>Architect</p>
-  </div>
-</div>
- <div class="card">
-  <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:100%">
-  <div class="container">
-    <h4><b>John Doe</b></h4>
-    <p>Architect</p>
-  </div>
-</div>
- <div class="card">
-  <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:100%">
-  <div class="container">
-    <h4><b>John Doe</b></h4>
-    <p>Architect</p>
+    <h4><b>{{name}}</b></h4>
+    <p>{{mail}}</p>
+    <p>{{phone}}</p>
   </div>
 </div>
 </div>
@@ -27,9 +14,12 @@
 </template>
 
 <script>
+
 export default {
   name: 'HelloWorld',
+  props: ['users','name', 'mail', 'phone']
 }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
