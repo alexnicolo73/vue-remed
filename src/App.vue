@@ -26,7 +26,7 @@ export default {
       users: [],
     };
   },
-blablablljdiozqndozqndozqndoizqndozq
+
   mounted() {
     axios
       .get(`https://randomuser.me/api/?results=12`)
