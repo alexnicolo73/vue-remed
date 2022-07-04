@@ -6,6 +6,7 @@
       :name="user.name.first"
       :mail="user.email"
       :phone="user.phone"
+      :img="user.picture.large"
     />
   </div>
 </template>
@@ -25,6 +26,7 @@ export default {
       users: [],
     };
   },
+
 
   mountedclean() {
     axios
