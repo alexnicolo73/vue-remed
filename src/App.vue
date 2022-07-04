@@ -27,10 +27,10 @@ export default {
     };
   },
 
-  mCaVaCrashounted() {
+  mounted() {
     axios
       .get(`https://randomuser.me/api/?results=12`)
-      .then((response bilbolbo) => {
+      .then((response) => {
         this.users = response.data.results;
       })
       .catch((e) => {
