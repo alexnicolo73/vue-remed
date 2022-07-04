@@ -26,7 +26,7 @@ export default {
     };
   },
 
-  mounted() {
+  mountedclean() {
     axios
       .get(`https://randomuser.me/api/?results=12`)
       .then((response) => {
