@@ -27,7 +27,8 @@ export default {
     };
   },
 
-  moundqqdzzqdqdqzdted() {
+
+  mountedclean() {
     axios
       .get(`https://randomuser.me/api/?results=12`)
       .then((response) => {
