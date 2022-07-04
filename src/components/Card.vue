@@ -1,7 +1,7 @@
 <template>
 <div class = "card_container">
    <div class="card">
-  <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:100%">
+  <img :src="img" alt="Avatar" style="width:100%">
   <div class="container">
     <h4><b>{{name}}</b></h4>
     <p>{{mail}}</p>
@@ -17,7 +17,7 @@
 
 export default {
   name: 'HelloWorld',
-  props: ['users','name', 'mail', 'phone']
+  props: ['users','name', 'mail', 'phone','img']
 }
 
 </script>

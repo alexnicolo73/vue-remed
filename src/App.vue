@@ -6,6 +6,7 @@
       :name="user.name.first"
       :mail="user.email"
       :phone="user.phone"
+      :img="user.picture.large"
     />
   </div>
 </template>
@@ -25,7 +26,7 @@ export default {
       users: [],
     };
   },
-
+blablablljdiozqndozqndozqndoizqndozq
   mounted() {
     axios
       .get(`https://randomuser.me/api/?results=12`)
